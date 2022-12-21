@@ -11,7 +11,7 @@ p {
   color: #8f8f8f;
 }
 
-
+/* Headings */
 
 .big-heading{
   font-size: 3.5rem;
@@ -69,10 +69,16 @@ p {
 
 /* Title Section */
 
-#title .container-fluid {
-  padding: 3% 15%;
+#title {
+  background-color: #ff4c68;
+  color: #fff;
   text-align: left;
 }
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
 
 
 /* Title-Image  */
@@ -123,9 +129,7 @@ p {
   margin: 20px;
 }
 
-.carousel-item {
 
-}
 
 #press {
   background-color: #ef8172;
@@ -155,6 +159,14 @@ p {
   padding: 3% 2%;
 }
 
+/* CTA Section */
+
+/* Footer */
+
+.social-icon{
+  margin: 20px 10px;
+}
+
 @media (max-width: 1028px)
 
 {
@@ -170,10 +182,4 @@ p {
   }
 }
 
-/* Call to Action Section */
 
-/* Footer */
-
-.social-icon{
-  margin: 20px 10px;
-}
